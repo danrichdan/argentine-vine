@@ -1,0 +1,114 @@
+
+/*************************
+BASE STYLES
+**************************/
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Bold.ttf);
+}
+
+body {
+    background-color: rgba(130,169,186, .4);
+    /*background-color: rgba(107,13,37, .2);*/
+    /*background-image: url("../images/stucco-pattern.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+#wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+/*************************
+HEADER
+**************************/
+
+header a {
+    font-family: Oswald, sans-serif;
+}
+
+header {
+    background-color: rgba(234,221,123, .8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.header-right-side {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+
+.header-left-side {
+    padding-left: 40px;
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    font-size: 1.35em;
+}
+/*************************
+PSEUDO-ELEMENTS
+**************************/
+
+header a:link {
+    color: rgb(107,13,37);
+}
+
+header a:visited {
+    color: rgb(130,169,186);
+}
+
+header .contact-info a:hover {
+    text-decoration: underline;
+
+}
+
+header .navigation a:hover {
+    border-bottom: solid 4px;
+    padding: 5px;
+}
+
+header a:active {
+    color: rgb(97,177,202);
+}
+
+/*************************
+MAIN-CONTENT
+**************************/
+
+#hero {
+    background-image: url(../images/argentina-pampas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
