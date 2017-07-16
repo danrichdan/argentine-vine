@@ -1,0 +1,275 @@
+/*************************
+BASE STYLES
+**************************/
+
+main {
+    padding-top: 107px;
+}
+/*********** FONTS **************/
+
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Microsoft PhagsPa Bold';
+    src: url(../fonts/phagspab.ttf);
+}
+
+@font-face {
+    font-family: 'Microsoft PhagsPa';
+    src: url(../fonts/phagspa.ttf);
+}
+
+h1 {
+    font-family: Verdana,'Microsoft PhagsPa Bold', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Tahoma,'Microsoft PhagsPa Bold', Arial, Verdana, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 1.1em;
+    line-height: 1.4;
+    color: #4d4d4d;
+}
+
+footer p {
+    font-family: Oswald;
+}
+
+
+/*********** LISTS AND IMAGES **************/
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/*********** TEXT **************/
+
+footer,
+#hero,
+.large-image-section h2 {
+    text-align: center;
+}
+
+/*************************
+LINKS/PSEUDO-ELEMENTS
+**************************/
+a {
+    text-decoration: none;
+    color: #6d1639;
+}
+
+header a:link {
+    font-family: Oswald, sans-serif;
+    /*border-bottom: 3px solid;*/
+}
+
+/*************************
+HEADER
+**************************/
+
+header .header-left-side img[src*="logo"] {
+    width: 100px;
+}
+
+header ul li {
+    padding: 10px;
+
+}
+
+header ul {
+    margin-top: 0;
+}
+
+header .header-right-side div.contact-info {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f1e8a7;
+}
+
+footer {
+    background-color: #f1e8a7;
+}
+
+.header-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*********** NAVIGATION **************/
+
+nav.navigation ul li a{
+    text-transform: lowercase;
+}
+
+nav ul {
+    display: none;
+
+}
+
+.hamburger-container {
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #6d1639;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 5px) ;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.responsive {
+    display: block;
+    position: absolute;
+    top: 107px;
+    right: 0;
+    background-color: #f1e8a7;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #6d1639;
+}
+
+.responsive li {
+    border-top: 1px solid #6d1639;
+}
+
+/*************************
+FOOTER
+**************************/
+
+footer p {
+    color: #6d1639;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer i {
+    width: 25px;
+}
+
+/*************************
+HOME PAGE
+**************************/
+
+/***********HERO SECTION**************/
+
+#hero {
+    background-image: url("../images/argentina-pampas.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 4px 4px #000;
+}
+
+/***********MAIN CONTENT**************/
+
+p.summary {
+    margin-top: 40px;
+}
+
+#content-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.three-column-section img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.three-column-section p {
+    width: 95%;
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+.three-column-section div {
+    padding: 25px 0;
+}
+
+/***********BUENOS AIRES SECTION**************/
+
+div.large-image-section {
+    margin-top: 30px;
+}
+
+.large-image-section h2 {
+    color: #6d1639;
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: 0 auto 20px;
+}
+
+.large-image-section img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p.img-summary {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .three-column-section div {
+        padding: 25px 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+}
