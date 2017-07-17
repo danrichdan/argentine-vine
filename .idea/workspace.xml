@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b98a388-a3e9-4162-a13e-d513c787e1bc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/images/logo-2.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/images/logo-3.ai" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/argentina/images/logo-2.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/argentina/images/logo-3.ai" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Bold.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-ExtraLight.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-ExtraLight.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Light.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Medium.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Medium.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Regular.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-SemiBold.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-SemiBold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/phagspa.ttf" afterPath="$PROJECT_DIR$/v1/fonts/phagspa.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/phagspab.ttf" afterPath="$PROJECT_DIR$/v1/fonts/phagspab.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/argentina-pampas.jpg" afterPath="$PROJECT_DIR$/v1/images/argentina-pampas.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern-2.jpg" afterPath="$PROJECT_DIR$/v1/images/bg-pattern-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern-2.psd" afterPath="$PROJECT_DIR$/v1/images/bg-pattern-2.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/bg-pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern.psd" afterPath="$PROJECT_DIR$/v1/images/bg-pattern.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/blue-gold-tile.jpg" afterPath="$PROJECT_DIR$/v1/images/blue-gold-tile.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/gold-black-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/gold-black-pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/gold-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/gold-pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/gold-red-bg-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/gold-red-bg-pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/logo-2.png" afterPath="$PROJECT_DIR$/v1/images/logo-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/logo.ai" afterPath="$PROJECT_DIR$/v1/images/logo.ai" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/logo.png" afterPath="$PROJECT_DIR$/v1/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/mate.png" afterPath="$PROJECT_DIR$/v1/images/mate.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/pampas-grass.jpg" afterPath="$PROJECT_DIR$/v1/images/pampas-grass.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/penguin.png" afterPath="$PROJECT_DIR$/v1/images/penguin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/recoleta.jpeg" afterPath="$PROJECT_DIR$/v1/images/recoleta.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/red-background-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/red-background-pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/stucco-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/stucco-pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/wine.png" afterPath="$PROJECT_DIR$/v1/images/wine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argentina/css/style-2.css" afterPath="$PROJECT_DIR$/argentina/css/style-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argentina/css/style.css" afterPath="$PROJECT_DIR$/argentina/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argentina/index.html" afterPath="$PROJECT_DIR$/argentina/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,22 +59,12 @@
     <favorites_list name="argentine-vine" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/argentina/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/argentina/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -50,8 +73,8 @@
       <file leaf-file-name="style-2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/argentina/css/style-2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="420" column="4" lean-forward="false" selection-start-line="420" selection-start-column="4" selection-end-line="420" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -60,8 +83,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/argentina/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="7" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="7" />
+            <state relative-caret-position="119">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -84,6 +107,7 @@
         <option value="$PROJECT_DIR$/argentina/css/normalize.css" />
         <option value="$PROJECT_DIR$/argentina/css/style.css" />
         <option value="$PROJECT_DIR$/argentina/js/script.js" />
+        <option value="$PROJECT_DIR$/v1/index.html" />
         <option value="$PROJECT_DIR$/argentina/index.html" />
         <option value="$PROJECT_DIR$/argentina/css/style-2.css" />
       </list>
@@ -118,6 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,10 +170,26 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="argentine-vine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="argentine-vine" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="argentina" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +199,12 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dan\Documents\School\GoldenWest\Web Design\argentine-vine\v1\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dan\Documents\School\GoldenWest\Web Design\argentine-vine\v1" />
+      <recent name="C:\Users\Dan\Documents\School\GoldenWest\Web Design\argentine-vine\v1\css" />
       <recent name="C:\Users\Dan\Documents\School\GoldenWest\Web Design\argentine-vine\argentina\css" />
     </key>
   </component>
@@ -261,12 +308,13 @@
       <workItem from="1499887703303" duration="13000" />
       <workItem from="1499985763094" duration="359000" />
       <workItem from="1500075194130" duration="921000" />
-      <workItem from="1500226910313" duration="19435000" />
+      <workItem from="1500226910313" duration="22364000" />
+      <workItem from="1500312774007" duration="2816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54686000" />
+    <option name="totallyTimeSpent" value="60431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,13 +333,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2791798" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +353,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/argentina/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="51" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/argentina/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/argentina/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4165">
+          <caret line="245" column="0" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/argentina/css/style-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6834">
+          <caret line="402" column="14" lean-forward="true" selection-start-line="402" selection-start-column="14" selection-end-line="402" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/argentina/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -396,34 +476,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/argentina/js/script.js">
+    <entry file="file://$PROJECT_DIR$/v1/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/argentina/index.html">
+    <entry file="file://$PROJECT_DIR$/v1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="54" />
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#3859#3865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/css/style-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/argentina/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/argentina/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="7" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/argentina/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/argentina/css/style-2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="420" column="4" lean-forward="false" selection-start-line="420" selection-start-column="4" selection-end-line="420" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
