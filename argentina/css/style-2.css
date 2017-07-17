@@ -1,6 +1,22 @@
 /*************************
 BASE STYLES
 **************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+#wrapper {
+    max-width: 1200px;
+    position: relative;
+}
+
+header {
+    max-width: 1200px;
+}
 
 main {
     padding-top: 107px;
@@ -72,6 +88,7 @@ LINKS/PSEUDO-ELEMENTS
 a {
     text-decoration: none;
     color: #6d1639;
+    font-size: 1.1em;
 }
 
 header a:link {
@@ -211,6 +228,15 @@ HOME PAGE
     text-shadow: 2px 4px 4px #000;
 }
 
+#hero h1 {
+    margin-bottom: 0;
+}
+
+#hero h2 {
+    margin-top: 15px;
+    font-size: 1.35em;
+}
+
 /***********MAIN CONTENT**************/
 
 p.summary {
@@ -264,12 +290,135 @@ p.img-summary {
     margin-bottom: 50px;
 }
 
+
+/*************************
+MEDIA QUERIES
+**************************/
+
+/*********** TABLET **************/
+
+
 @media (min-width: 768px) {
     .three-column-section div {
         padding: 25px 40px;
     }
+
+    .large-image-section h2 {
+        width: 30%;
+    }
+
+    #hero {
+        height: 450px;
+    }
+
+    #hero h1 {
+        font-size: 3.25em;
+    }
+
+    #hero h2 {
+        font-size: 2.15em;
+    }
+
+    header .header-left-side img[src*="logo"] {
+        width: 125px;
+    }
+
+    .responsive {
+        top: 128px;
+    }
+
 }
+
+/*********** BIG TABLETS AND REGULAR LAPTOPS **************/
 
 @media (min-width: 1024px) {
+    .hamburger-container {
+        display: none;
+    }
+
+    #myTopnav {
+        display: flex;
+    }
+
+    header .header-right-side div.contact-info {
+        display: inline-block;
+        text-align: right;
+        padding-right: 10px;
+   }
+
+    .header-right-side {
+        justify-content: space-around;
+    }
+
+    header {
+        justify-content: space-between;
+        z-index: 100;
+    }
+
+    .header-right-side,
+    .header-left-side {
+        position: relative;
+    }
+
+    .header-right-side {
+        right: 100px;
+    }
+
+    .header-left-side{
+        left: 100px;
+    }
+
+    #wrapper {
+        margin: 0 auto;
+    }
+
+    #hero {
+        height: 600px;
+        justify-content: flex-start;
+    }
+
+    #hero h1 {
+        font-size: 3.75em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    #hero h1,
+    #hero h2 {
+        position: relative;
+        top: 100px;
+    }
+
+    .three-column-section {
+        background-color: #82a9ba;
+        display: block;
+        height: 500px;
+
+    }
+
+    .three-column-section div {
+        padding: 0;
+    }
+
+    .left-col,
+    .center-col,
+    .right-col {
+        float: left;
+        width: 30%;
+    }
+    .center-col {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    /*.right-col {*/
+        /*float: right;*/
+        /*width: 30%;*/
+    /*}*/
+
+    .break {
+        clear: both;
+    }
 
 }
+
+/*********** LARGE DESKTOPS **************/
