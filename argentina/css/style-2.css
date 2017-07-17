@@ -243,8 +243,13 @@ HOME PAGE
 
 /***********MAIN CONTENT**************/
 
-p.summary {
+div.summary {
     margin-top: 40px;
+}
+
+div.summary h2 {
+    text-align: center;
+    color: #3e4649;
 }
 
 #content-container {
@@ -277,9 +282,9 @@ div.large-image-section {
 }
 
 .large-image-section h2 {
-    color: #6d1639;
-    border-bottom: 3px solid;
-    padding-bottom: 10px;
+    color: #3e4649;
+    /*border-bottom: 3px solid;*/
+    /*padding-bottom: 10px;*/
     width: 50%;
     margin: 0 auto 20px;
 }
@@ -367,10 +372,6 @@ MEDIA QUERIES
         padding-right: 10px;
    }
 
-    .header-right-side {
-        justify-content: space-around;
-    }
-
     header {
         justify-content: space-between;
         z-index: 100;
@@ -382,12 +383,32 @@ MEDIA QUERIES
     }
 
     .header-right-side {
+        justify-content: space-around;
         right: 100px;
     }
 
     .header-left-side{
         left: 100px;
     }
+
+    .header-right-side nav a {
+        font-size: 1.15em;
+    }
+
+    header .contact-info a:hover {
+        text-decoration: underline;
+
+    }
+
+    .header-right-side nav a:hover {
+        border-bottom: solid 4px;
+        padding: 5px;
+    }
+
+    header a:active {
+        color: rgb(97,177,202);
+    }
+
 
     /***********
     HERO SECTION
@@ -414,10 +435,12 @@ MEDIA QUERIES
         top: 100px;
     }
 
-    p.summary {
+    div.summary {
         width: 75%;
         margin: 150px auto;
     }
+
+
 
     /***********
     THREE COLUMN SECTION

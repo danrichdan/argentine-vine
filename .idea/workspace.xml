@@ -2,38 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b98a388-a3e9-4162-a13e-d513c787e1bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/images/logo-2.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/images/logo-3.ai" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/argentina/images/logo-2.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/argentina/images/logo-3.ai" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Bold.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-ExtraLight.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-ExtraLight.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Light.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Medium.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Medium.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-Regular.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/Oswald-SemiBold.ttf" afterPath="$PROJECT_DIR$/v1/fonts/Oswald-SemiBold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/phagspa.ttf" afterPath="$PROJECT_DIR$/v1/fonts/phagspa.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/fonts/phagspab.ttf" afterPath="$PROJECT_DIR$/v1/fonts/phagspab.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/argentina-pampas.jpg" afterPath="$PROJECT_DIR$/v1/images/argentina-pampas.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern-2.jpg" afterPath="$PROJECT_DIR$/v1/images/bg-pattern-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern-2.psd" afterPath="$PROJECT_DIR$/v1/images/bg-pattern-2.psd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/bg-pattern.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/bg-pattern.psd" afterPath="$PROJECT_DIR$/v1/images/bg-pattern.psd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/blue-gold-tile.jpg" afterPath="$PROJECT_DIR$/v1/images/blue-gold-tile.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/gold-black-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/gold-black-pattern.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/gold-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/gold-pattern.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/gold-red-bg-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/gold-red-bg-pattern.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/logo-2.png" afterPath="$PROJECT_DIR$/v1/images/logo-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/logo.ai" afterPath="$PROJECT_DIR$/v1/images/logo.ai" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/logo.png" afterPath="$PROJECT_DIR$/v1/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/mate.png" afterPath="$PROJECT_DIR$/v1/images/mate.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/pampas-grass.jpg" afterPath="$PROJECT_DIR$/v1/images/pampas-grass.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/penguin.png" afterPath="$PROJECT_DIR$/v1/images/penguin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/recoleta.jpeg" afterPath="$PROJECT_DIR$/v1/images/recoleta.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/red-background-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/red-background-pattern.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/stucco-pattern.jpg" afterPath="$PROJECT_DIR$/v1/images/stucco-pattern.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/argentina/images/wine.png" afterPath="$PROJECT_DIR$/v1/images/wine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argentina/css/style-2.css" afterPath="$PROJECT_DIR$/argentina/css/style-2.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argentina/css/style.css" afterPath="$PROJECT_DIR$/argentina/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argentina/index.html" afterPath="$PROJECT_DIR$/argentina/index.html" />
@@ -63,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/argentina/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="63" column="515" lean-forward="false" selection-start-line="63" selection-start-column="515" selection-end-line="63" selection-end-column="515" />
               <folding />
             </state>
           </provider>
@@ -73,8 +41,8 @@
       <file leaf-file-name="style-2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/argentina/css/style-2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="193">
+              <caret line="251" column="19" lean-forward="false" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -83,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/argentina/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="340">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,9 +73,9 @@
       <list>
         <option value="$PROJECT_DIR$/argentina/style.css" />
         <option value="$PROJECT_DIR$/argentina/css/normalize.css" />
-        <option value="$PROJECT_DIR$/argentina/css/style.css" />
         <option value="$PROJECT_DIR$/argentina/js/script.js" />
         <option value="$PROJECT_DIR$/v1/index.html" />
+        <option value="$PROJECT_DIR$/argentina/css/style.css" />
         <option value="$PROJECT_DIR$/argentina/index.html" />
         <option value="$PROJECT_DIR$/argentina/css/style-2.css" />
       </list>
@@ -167,24 +135,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="argentina" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argentine-vine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argentine-vine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argentina" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,12 +259,12 @@
       <workItem from="1499985763094" duration="359000" />
       <workItem from="1500075194130" duration="921000" />
       <workItem from="1500226910313" duration="22364000" />
-      <workItem from="1500312774007" duration="2816000" />
+      <workItem from="1500312774007" duration="4220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60431000" />
+    <option name="totallyTimeSpent" value="61835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,24 +462,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/argentina/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/argentina/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="63" column="515" lean-forward="false" selection-start-line="63" selection-start-column="515" selection-end-line="63" selection-end-column="515" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/argentina/css/style-2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="193">
+          <caret line="251" column="19" lean-forward="false" selection-start-line="251" selection-start-column="19" selection-end-line="251" selection-end-column="19" />
           <folding />
         </state>
       </provider>
