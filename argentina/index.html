@@ -8,53 +8,86 @@
     <title>The Argentine Vine | Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <script src="https://use.fontawesome.com/3a0d624866.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/style-2.css">
+
 </head>
 <body>
     <div id="wrapper">
+
+        <!--HEADER SECTION-->
         <header>
+            <!--LOGO SECTION-->
             <div class="header-left-side">
-                <img src="images/logo.png" alt="the argentine vine logo">
+                <a href="index.html">
+                    <img src="images/logo-2.png" alt="the argentine vine logo">
+                </a>
             </div>
+
+            <!--CONTACT AND NAVIGATION SECTION-->
             <div class="header-right-side">
+                <!--CONTACT SECTION-->
                 <div class="contact-info">
                     <a href="mailto:support@argentinevine.com">support@argentinevine.com</a>
                 </div>
+
+                <!--NAVIGATION SECTION-->
                 <nav class="navigation">
-                    <ul>
-                        <li><a href="about.html">About</a></li>
+                    <div class="hamburger-container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <ul class="topnav" id="myTopnav">
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="sites.html">Sites to See</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <!--END HEADER SECTION-->
+
+        <!--MAIN CONTENT SECTION-->
         <main>
+            <!--HERO SECTION-->
             <section id="hero">
                 <h1>Visit Argentina</h1>
                 <h2>Beats to your rhythm</h2>
             </section>
+
+            <!--CONTENT BELOW THE HERO SECTION-->
             <section id="content-container">
                 <p class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis nisl pulvinar ullamcorper scelerisque. Nulla mauris metus, commodo fringilla congue ut, imperdiet aliquet risus. Nunc scelerisque interdum lorem vel aliquet. Nunc pretium, leo imperdiet tempus semper, purus nunc sagittis diam, vel mattis dui leo et magna. Pellentesque nec commodo nisi. Suspendisse potenti. Proin elementum nulla sed lacus tincidunt lobortis. Sed ultricies lorem aliquet lorem porta,</p>
-                <div class="three-column-section">
-                    <div class="left-col">
-                        <img src="images/mate.png" alt="mate">
-                        <p>Pellentesque a magna fringilla, commodo neque a, blandit tortor. Quisque non blandit orci. Ut dui sem, tincidunt blandit egestas et, ultrices eu neque. Aliquam erat volutpat. Proin consectetur magna ligula, eu varius lorem vulputate vitae. Aenean rhoncus diam iaculis orci cursus congue. </p>
-                    </div>
-                    <div class="center-col">
-                        <img src="images/penguin.png" alt="penguin image">
-                        <p>Suspendisse pharetra nisi congue, sodales urna a, bibendum arcu. Aliquam nec quam luctus, fermentum est sollicitudin, commodo risus. Vestibulum auctor libero et venenatis aliquet. Suspendisse risus magna, lobortis ac efficitur vel, tincidunt a magna.</p>
-                    </div>
-                    <div class="right-col">
-                        <img src="images/wine.png" alt="bottle and glass of wine">
-                        <p> Cras vel nisi non lacus ornare egestas. Nulla eleifend pulvinar congue. Suspendisse tincidunt metus vitae diam tincidunt rhoncus. Praesent felis nunc, aliquet vitae lobortis dictum, lobortis tristique nisi.</p>
+
+                <!--THREE COLUMN SECTION-->
+                <div class="three-column-section break">
+                    <div class="three-col-container">
+                        <div class="left-col">
+                            <img src="images/mate.png" alt="mate">
+                            <p>Pellentesque a magna fringilla, commodo neque a, blandit tortor. Quisque non blandit orci. Ut dui sem, tincidunt blandit egestas et, ultrices eu neque. Aliquam erat volutpat. Proin consectetur magna ligula, eu varius lorem vulputate vitae. Aenean rhoncus diam iaculis orci cursus congue. </p>
+                        </div>
+                        <div class="center-col">
+                            <img src="images/penguin.png" alt="penguin image">
+                            <p>Suspendisse pharetra nisi congue, sodales urna a, bibendum arcu. Aliquam nec quam luctus, fermentum est sollicitudin, commodo risus. Vestibulum auctor libero et venenatis aliquet. Suspendisse risus magna, lobortis ac efficitur vel, tincidunt a magna.</p>
+                        </div>
+                        <div class="right-col">
+                            <img src="images/wine.png" alt="bottle and glass of wine">
+                            <p> Cras vel nisi non lacus ornare egestas. Nulla eleifend pulvinar congue. Suspendisse tincidunt metus vitae diam tincidunt rhoncus. Praesent felis nunc, aliquet vitae lobortis dictum, lobortis tristique nisi.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="large-image-section">
+
+                <!--BUENOS AIRES SECTION-->
+                <div class="large-image-section break">
                     <h2>Buenos Aires</h2>
                     <img src="images/recoleta.jpeg" alt="aerial view of la recoleta">
-                    <p class="summary">Vivamus hendrerit, purus et pulvinar blandit, lectus dui consequat dui, ac posuere ipsum mi ut turpis. Vestibulum blandit pharetra orci, eu congue quam finibus et. Phasellus non laoreet orci. Praesent a massa sem. Nulla diam tortor, tempus viverra bibendum a, vestibulum ut nisi. Mauris faucibus, sapien non dapibus blandit, mi velit molestie sem, blandit porttitor lectus risus nec sem. Duis posuere dui id efficitur dictum. Praesent maximus semper dolor, id vestibulum erat laoreet at.</p>
+                    <p class="img-summary">Vivamus hendrerit, purus et pulvinar blandit, lectus dui consequat dui, ac posuere ipsum mi ut turpis. Vestibulum blandit pharetra orci, eu congue quam finibus et. Phasellus non laoreet orci. Praesent a massa sem. Nulla diam tortor, tempus viverra bibendum a, vestibulum ut nisi. Mauris faucibus, sapien non dapibus blandit, mi velit molestie sem, blandit porttitor lectus risus nec sem. Duis posuere dui id efficitur dictum. Praesent maximus semper dolor, id vestibulum erat laoreet at.</p>
                 </div>
             </section>
+
+            <!--FOOTER SECTION-->
             <footer>
                 <p>The Argentine Vine &copy;2017</p>
                 <ul class="social-icons">
@@ -72,5 +105,6 @@
             </footer>
         </main>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

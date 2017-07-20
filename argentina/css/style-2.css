@@ -1,0 +1,498 @@
+/*************************
+BASE STYLES
+**************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(130,169,186, .3);
+    background-image: url("../images/grey-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#wrapper {
+    max-width: 1200px;
+    position: relative;
+    background-color: #fff;
+}
+
+header {
+    max-width: 1200px;
+}
+
+main {
+    padding-top: 107px;
+}
+/*********** FONTS **************/
+
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Microsoft PhagsPa Bold';
+    src: url(../fonts/phagspab.ttf);
+}
+
+@font-face {
+    font-family: 'Microsoft PhagsPa';
+    src: url(../fonts/phagspa.ttf);
+}
+
+h1 {
+    font-family: Verdana,'Microsoft PhagsPa Bold', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Tahoma,'Microsoft PhagsPa Bold', Arial, Verdana, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 1.1em;
+    line-height: 1.4;
+    color: #4d4d4d;
+}
+
+footer p {
+    font-family: Oswald;
+}
+
+
+/*********** LISTS AND IMAGES **************/
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/*********** TEXT **************/
+
+footer,
+#hero,
+.large-image-section h2 {
+    text-align: center;
+}
+
+/*************************
+LINKS/PSEUDO-ELEMENTS
+**************************/
+a {
+    text-decoration: none;
+    color: #6d1639;
+    font-size: 1.1em;
+}
+
+header a:link {
+    font-family: Oswald, sans-serif;
+    /*border-bottom: 3px solid;*/
+}
+
+/*************************
+HEADER
+**************************/
+
+header .header-left-side img[src*="logo"] {
+    width: 100px;
+}
+
+header ul li {
+    padding: 10px;
+
+}
+
+header ul {
+    margin-top: 0;
+}
+
+header .header-right-side div.contact-info {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f1e8a7;
+}
+
+footer {
+    background-color: #f1e8a7;
+}
+
+.header-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*********** NAVIGATION **************/
+
+nav.navigation ul li a{
+    text-transform: lowercase;
+}
+
+nav ul {
+    display: none;
+
+}
+
+.hamburger-container {
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #6d1639;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 5px) ;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.responsive {
+    display: block;
+    position: absolute;
+    top: 107px;
+    right: 0;
+    background-color: #f1e8a7;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #6d1639;
+}
+
+.responsive li {
+    border-top: 1px solid #6d1639;
+}
+
+/*************************
+FOOTER
+**************************/
+
+footer p {
+    color: #6d1639;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer i {
+    width: 25px;
+}
+
+/*************************
+HOME PAGE
+**************************/
+
+/***********HERO SECTION**************/
+
+#hero {
+    background-image: url("../images/argentina-pampas.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 4px 4px #000;
+}
+
+#hero h1 {
+    margin-bottom: 0;
+}
+
+#hero h2 {
+    margin-top: 15px;
+    font-size: 1.35em;
+}
+
+/***********MAIN CONTENT**************/
+
+p.summary {
+    margin-top: 40px;
+}
+
+#content-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.three-column-section img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.three-column-section p {
+    width: 95%;
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+.three-column-section div {
+    padding: 25px 0;
+}
+
+/***********BUENOS AIRES SECTION**************/
+
+div.large-image-section {
+    margin-top: 30px;
+}
+
+.large-image-section h2 {
+    color: #6d1639;
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: 0 auto 20px;
+}
+
+.large-image-section img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p.img-summary {
+    margin-bottom: 50px;
+}
+
+
+/*************************
+MEDIA QUERIES
+**************************/
+
+/*********** TABLET **************/
+
+
+@media (min-width: 768px) {
+    /***********
+    HEADER
+    **************/
+
+    header .header-left-side img[src*="logo"] {
+        width: 125px;
+    }
+
+    .responsive {
+        top: 128px;
+    }
+
+    /***********
+   HERO SECTION
+   **************/
+    #hero {
+        height: 450px;
+    }
+
+    #hero h1 {
+        font-size: 3.25em;
+    }
+
+    #hero h2 {
+        font-size: 2.15em;
+    }
+
+    /***********
+    THREE COLUMN SECTION
+    **************/
+    .three-column-section div {
+        padding: 25px 40px;
+    }
+
+    /***********
+   BUENOS AIRES
+   **************/
+    .large-image-section h2 {
+        width: 30%;
+    }
+
+}
+
+/*********** BIG TABLETS AND REGULAR LAPTOPS **************/
+
+@media (min-width: 1024px) {
+
+    /***********
+    HEADER
+    **************/
+    .hamburger-container {
+        display: none;
+    }
+
+    #myTopnav {
+        display: flex;
+    }
+
+    header .header-right-side div.contact-info {
+        display: inline-block;
+        text-align: right;
+        padding-right: 10px;
+   }
+
+    .header-right-side {
+        justify-content: space-around;
+    }
+
+    header {
+        justify-content: space-between;
+        z-index: 100;
+    }
+
+    .header-right-side,
+    .header-left-side {
+        position: relative;
+    }
+
+    .header-right-side {
+        right: 100px;
+    }
+
+    .header-left-side{
+        left: 100px;
+    }
+
+    /***********
+    HERO SECTION
+    **************/
+
+    #wrapper {
+        margin: 0 auto;
+    }
+
+    #hero {
+        height: 600px;
+        justify-content: flex-start;
+    }
+
+    #hero h1 {
+        font-size: 3.75em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    #hero h1,
+    #hero h2 {
+        position: relative;
+        top: 100px;
+    }
+
+    p.summary {
+        width: 75%;
+        margin: 150px auto;
+    }
+
+    /***********
+    THREE COLUMN SECTION
+    **************/
+    .three-column-section {
+        background-color: #82a9ba;
+        display: block;
+        height: 500px;
+
+    }
+
+    .three-column-section div {
+        padding: 0;
+    }
+
+    .left-col,
+    .center-col,
+    .right-col {
+        float: left;
+        width: 30%;
+    }
+    .center-col {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .break {
+        clear: both;
+    }
+
+    .three-column-section,
+    #content-container {
+        width: 100%;
+    }
+    .three-column-section {
+        position: relative;
+
+    }
+    div.three-col-container {
+        width: 95%;
+        margin: 0 auto;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%);
+        padding-left: 100px;
+
+    }
+
+    .left-col p,
+    .center-col p,
+    .right-col p {
+        color: #000;
+    }
+
+    .large-image-section h2 {
+        width: 20%;
+    }
+
+    div.large-image-section {
+       margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .large-image-section img {
+        width: 85%;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+
+    p.img-summary {
+        width: 75%;
+        margin: 15px auto 0;
+    }
+
+}
+
+/*********** LARGE DESKTOPS **************/

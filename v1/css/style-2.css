@@ -5,23 +5,23 @@ BASE STYLES
 
 @font-face {
     font-family: Oswald;
-    src: url(../../v1/fonts/Oswald-Bold.ttf);
+    src: url(../fonts/Oswald-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Microsoft PhagsPa Bold';
-    src: url(../../v1/fonts/phagspab.ttf);
+    src: url(../fonts/phagspab.ttf);
 }
 
 @font-face {
     font-family: 'Microsoft PhagsPa';
-    src: url(../../v1/fonts/phagspa.ttf);
+    src: url(../fonts/phagspa.ttf);
 }
 
 body {
     /*background-color: rgba(130,169,186, .4);*/
     background-color: rgba(107,13,37, .9);
-    background-image: url("../../v1/images/bg-pattern-2.jpg");
+    background-image: url("../images/bg-pattern-2.jpg");
     background-size: cover;
     background-position: center;
     /*background-color: rgba(107,13,37, .5);*/
@@ -140,7 +140,7 @@ MAIN-CONTENT
 **************************/
 
 #hero {
-    background-image: url(../../v1/images/argentina-pampas.jpg);
+    background-image: url(../images/argentina-pampas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
