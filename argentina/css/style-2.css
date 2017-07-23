@@ -299,10 +299,79 @@ p.img-summary {
     margin-bottom: 50px;
 }
 
+/*************************
+ABOUT ARGENTINA PAGE
+**************************/
+
+#about-page-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#about-page-container h1 {
+    margin: 50px 0 40px;
+}
+
+#about-page-container h1,
+#about-page-container h2 {
+    color: #3e4649;
+}
+
+#about-page-container h2 {
+    margin-top: 40px;
+}
+
+iframe {
+    max-width: 100%;
+    height: 300px;
+
+}
+
+#about-page-container p:last-of-type{
+    margin-bottom: 50px;
+}
+
 
 /*************************
 MEDIA QUERIES
 **************************/
+
+    /***********
+    ABOUT PAGE
+    **************/
+/*********** Phone Landscape Sizes**************/
+
+@media (min-width: 568px) {
+    img[src*="san-martin"] {
+        width: 50%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    iframe {
+        height: 400px;
+    }
+}
+
+@media (min-width: 667px) {
+    iframe {
+        height: 450px;
+    }
+}
+
+@media (min-width: 736px) {
+    #about-page-container h1 {
+        margin: 65px 0 30px;
+    }
+    #about-page-container h2:first-of-type {
+        margin-top: 0;
+    }
+
+    iframe {
+        height: 500px;
+    }
+}
+
 
 /*********** TABLET **************/
 
@@ -319,6 +388,10 @@ MEDIA QUERIES
     .responsive {
         top: 128px;
     }
+
+    /***********
+    HOME PAGE
+    **************/
 
     /***********
    HERO SECTION
@@ -347,6 +420,23 @@ MEDIA QUERIES
    **************/
     .large-image-section h2 {
         width: 30%;
+    }
+
+    /***********
+    ABOUT PAGE
+    **************/
+    #about-page-container h1 {
+        margin-top: 75px;
+    }
+
+    img[src*="Ignacio-Manzoni-El-asado"] {
+        width: 50%;
+        float: right;
+        margin-left: 2%;
+    }
+
+    iframe {
+        width: 100%;
     }
 
 }
@@ -515,7 +605,17 @@ MEDIA QUERIES
         width: 75%;
         margin: 15px auto 0;
     }
+    /***********
+    ABOUT PAGE
+    **************/
 
+    img[src*="san-martin"] {
+        width: 25%;
+    }
+
+    iframe {
+        height: 575px;
+    }
 }
 
 /*********** LARGE DESKTOPS **************/
