@@ -243,8 +243,13 @@ HOME PAGE
 
 /***********MAIN CONTENT**************/
 
-p.summary {
+div.summary {
     margin-top: 40px;
+}
+
+div.summary h2 {
+    text-align: center;
+    color: #3e4649;
 }
 
 #content-container {
@@ -277,9 +282,9 @@ div.large-image-section {
 }
 
 .large-image-section h2 {
-    color: #6d1639;
-    border-bottom: 3px solid;
-    padding-bottom: 10px;
+    color: #3e4649;
+    /*border-bottom: 3px solid;*/
+    /*padding-bottom: 10px;*/
     width: 50%;
     margin: 0 auto 20px;
 }
@@ -294,10 +299,79 @@ p.img-summary {
     margin-bottom: 50px;
 }
 
+/*************************
+ABOUT ARGENTINA PAGE
+**************************/
+
+#about-page-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#about-page-container h1 {
+    margin: 50px 0 40px;
+}
+
+#about-page-container h1,
+#about-page-container h2 {
+    color: #3e4649;
+}
+
+#about-page-container h2 {
+    margin-top: 40px;
+}
+
+iframe {
+    max-width: 100%;
+    height: 300px;
+
+}
+
+#about-page-container p:last-of-type{
+    margin-bottom: 50px;
+}
+
 
 /*************************
 MEDIA QUERIES
 **************************/
+
+    /***********
+    ABOUT PAGE
+    **************/
+/*********** Phone Landscape Sizes**************/
+
+@media (min-width: 568px) {
+    img[src*="san-martin"] {
+        width: 50%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    iframe {
+        height: 400px;
+    }
+}
+
+@media (min-width: 667px) {
+    iframe {
+        height: 450px;
+    }
+}
+
+@media (min-width: 736px) {
+    #about-page-container h1 {
+        margin: 65px 0 30px;
+    }
+    #about-page-container h2:first-of-type {
+        margin-top: 0;
+    }
+
+    iframe {
+        height: 500px;
+    }
+}
+
 
 /*********** TABLET **************/
 
@@ -314,6 +388,10 @@ MEDIA QUERIES
     .responsive {
         top: 128px;
     }
+
+    /***********
+    HOME PAGE
+    **************/
 
     /***********
    HERO SECTION
@@ -344,6 +422,23 @@ MEDIA QUERIES
         width: 30%;
     }
 
+    /***********
+    ABOUT PAGE
+    **************/
+    #about-page-container h1 {
+        margin-top: 75px;
+    }
+
+    img[src*="Ignacio-Manzoni-El-asado"] {
+        width: 50%;
+        float: right;
+        margin-left: 2%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
 }
 
 /*********** BIG TABLETS AND REGULAR LAPTOPS **************/
@@ -367,10 +462,6 @@ MEDIA QUERIES
         padding-right: 10px;
    }
 
-    .header-right-side {
-        justify-content: space-around;
-    }
-
     header {
         justify-content: space-between;
         z-index: 100;
@@ -382,12 +473,32 @@ MEDIA QUERIES
     }
 
     .header-right-side {
+        justify-content: space-around;
         right: 100px;
     }
 
     .header-left-side{
         left: 100px;
     }
+
+    .header-right-side nav a {
+        font-size: 1.15em;
+    }
+
+    header .contact-info a:hover {
+        text-decoration: underline;
+
+    }
+
+    .header-right-side nav a:hover {
+        border-bottom: solid 4px;
+        padding: 5px;
+    }
+
+    header a:active {
+        color: rgb(97,177,202);
+    }
+
 
     /***********
     HERO SECTION
@@ -414,10 +525,12 @@ MEDIA QUERIES
         top: 100px;
     }
 
-    p.summary {
+    div.summary {
         width: 75%;
         margin: 150px auto;
     }
+
+
 
     /***********
     THREE COLUMN SECTION
@@ -492,7 +605,17 @@ MEDIA QUERIES
         width: 75%;
         margin: 15px auto 0;
     }
+    /***********
+    ABOUT PAGE
+    **************/
 
+    img[src*="san-martin"] {
+        width: 25%;
+    }
+
+    iframe {
+        height: 575px;
+    }
 }
 
 /*********** LARGE DESKTOPS **************/
