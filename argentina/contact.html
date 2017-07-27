@@ -8,7 +8,6 @@
     <title>The Argentine Vine | Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <script src="https://use.fontawesome.com/3a0d624866.js"></script>
-    <!--<link rel="stylesheet" href="css/style.css">-->
     <link rel="stylesheet" href="css/style-2.css">
 
 </head>
@@ -51,33 +50,40 @@
 
     <!--MAIN CONTENT SECTION-->
     <main>
-        <h1>Contact Us</h1>
-        <p>Curabitur vestibulum lectus et molestie consectetur. Aenean vestibulum sapien quis congue cursus. Pellentesque id mi ac dui auctor ornare a sed purus. Quisque tincidunt ipsum luctus tortor aliquam, id consequat libero ultrices. Nam a blandit lectus, sit amet mollis ligula. Etiam massa orci, efficitur sit amet volutpat at, pellentesque non nibh. Nunc commodo sem nec nibh fringilla, nec efficitur nulla fermentum. Maecenas a ex at urna maximus fermentum non eu justo.</p>
-        <form action="">
-            <input type="text">
-            <input type="text">
-            <input type="email">
-            <select name="" id="">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-            <textarea name="" id="comments" cols="30" rows="10"></textarea>
-            <button>Submit</button>
-        </form>
+        <div id="page-container">
+            <h1>Contact Us</h1>
+            <p>Curabitur vestibulum lectus et molestie consectetur. Aenean vestibulum sapien quis congue cursus. Pellentesque id mi ac dui auctor ornare a sed purus. Quisque tincidunt ipsum luctus tortor aliquam, id consequat libero ultrices. Nam a blandit lectus, sit amet mollis ligula. Etiam massa orci, efficitur sit amet volutpat at, pellentesque non nibh. Nunc commodo sem nec nibh fringilla, nec efficitur nulla fermentum. Maecenas a ex at urna maximus fermentum non eu justo.</p>
+            <form action="">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="topic">Reason for contact</label>
+                <select name="reason" id="topic">
+                    <option selected>-- Please select a reason --</option>
+                    <option value="information">Information</option>
+                    <option value="technical issue">Technical Issue</option>
+                    <option value="recommendations">Recommendations</option>
+                </select>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
     </main>
     <!--FOOTER SECTION-->
     <footer>
         <p>The Argentine Vine &copy;2017</p>
         <ul class="social-icons">
             <li>
-                <a href="http://www.facebook.com">
+                <a href="http://www.facebook.com" target="_blank">
                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a href="http://twitter.com">
+                <a href="http://twitter.com" target="_blank">
                     <i class="fa fa-twitter-square" aria-hidden="true"></i>
                 </a>
             </li>

@@ -51,68 +51,79 @@
 
     <!--MAIN CONTENT SECTION-->
     <main>
-        <h1>Sites to See</h1>
-        <h2>Where should you visit?</h2>
-        <table>
-            <caption>Places to visit</caption>
-            <thead>
-                <tr>
-                    <th>Location</th>
-                    <th>Outdoors</th>
-                    <th>Cultural</th>
-                    <th>Nearby</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Mendoza</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Cordoba</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Iguazu Falls</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Patagonia</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Buenos Aires</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>Choose a destination: <span>Buenos Airies</span></h3>
-        <section id="gallery-container">
+        <div id="page-container" class="sites-page">
+            <h1>Sites to See</h1>
+            <!--<h2>Where should you visit?</h2>-->
+            <table>
+                <caption>Places to visit</caption>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Outdoors</th>
+                        <th>Cultural</th>
+                        <th>Nearby</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mendoza</td>
+                        <td>Mountains</td>
+                        <td>Wine</td>
+                        <td>Andes</td>
+                    </tr>
+                    <tr>
+                        <td>Cordoba</td>
+                        <td>Grasslands</td>
+                        <td>Music</td>
+                        <td>Andes</td>
+                    </tr>
+                    <tr>
+                        <td>Iguazu Falls</td>
+                        <td>Jungle</td>
+                        <td>Dining</td>
+                        <td>Brazil</td>
+                    </tr>
+                    <tr>
+                        <td>Patagonia</td>
+                        <td>Glaciers</td>
+                        <td>Dining</td>
+                        <td>Antarctica</td>
+                    </tr>
+                    <tr>
+                        <td>Buenos Aires</td>
+                        <td>Rio Plata</td>
+                        <td>Museums</td>
+                        <td>Uruguay</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="gallery-controls">
+                <h3>Choose a gallery:</h3>
+                <p class="gallery-displayed">Argentina</p>
+                <ul class="choose-destination gallery-choices">
+                    <li>Buenos Aires</li>
+                    <li>Mendoza</li>
+                    <li>Cordoba</li>
+                    <li>Iguazu Falls</li>
+                    <li>Patagonia</li>
+                </ul>
+            </div>
+            <section id="gallery-container">
 
-        </section>
-
+            </section>
+        </div>
     </main>
     <!--FOOTER SECTION-->
     <footer>
         <p>The Argentine Vine &copy;2017</p>
         <ul class="social-icons">
             <li>
-                <a href="http://www.facebook.com">
+                <a href="http://www.facebook.com" target="_blank">
                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a href="http://twitter.com">
+                <a href="http://twitter.com" target="_blank">
                     <i class="fa fa-twitter-square" aria-hidden="true"></i>
                 </a>
             </li>
@@ -120,6 +131,8 @@
     </footer>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script-jquery.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
