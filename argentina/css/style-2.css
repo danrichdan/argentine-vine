@@ -20,6 +20,7 @@ body {
 
 header {
     max-width: 1200px;
+    z-index: 1000;
 }
 
 main {
@@ -47,7 +48,8 @@ h1 {
     font-family: Verdana,'Microsoft PhagsPa Bold', Arial, Helvetica, sans-serif;
 }
 
-h2 {
+h2,
+caption {
     font-family: Verdana, Tahoma,'Microsoft PhagsPa Bold', Arial, Verdana, Helvetica, sans-serif;
 }
 
@@ -56,6 +58,10 @@ p {
     font-size: 1.1em;
     line-height: 1.4;
     color: #4d4d4d;
+}
+
+form {
+    font-family: 'Microsoft PhagsPa', sans-serif;
 }
 
 footer p {
@@ -97,8 +103,9 @@ a {
 
 header a:link {
     font-family: Oswald, sans-serif;
-    /*border-bottom: 3px solid;*/
 }
+
+
 
 /*************************
 HEADER
@@ -194,6 +201,8 @@ nav ul {
     border-top: 1px solid #6d1639;
 }
 
+
+
 /*************************
 FOOTER
 **************************/
@@ -213,6 +222,8 @@ footer ul li {
 footer i {
     width: 25px;
 }
+
+
 
 /*************************
 HOME PAGE
@@ -267,7 +278,6 @@ div.summary h2 {
 
 .three-column-section p {
     width: 95%;
-    /*margin: 0 auto;*/
     text-align: center;
 }
 
@@ -299,25 +309,27 @@ p.img-summary {
     margin-bottom: 50px;
 }
 
+
+
 /*************************
 ABOUT ARGENTINA PAGE
 **************************/
 
-#about-page-container {
+#page-container {
     width: 95%;
     margin: 0 auto;
 }
 
-#about-page-container h1 {
+#page-container h1 {
     margin: 50px 0 40px;
 }
 
-#about-page-container h1,
-#about-page-container h2 {
+#page-container h1,
+#page-container h2 {
     color: #3e4649;
 }
 
-#about-page-container h2 {
+#page-container h2 {
     margin-top: 40px;
 }
 
@@ -327,9 +339,127 @@ iframe {
 
 }
 
-#about-page-container p:last-of-type{
+#page-container p:last-of-type{
     margin-bottom: 50px;
 }
+
+
+
+/*************************
+SITES TO SEE PAGE
+**************************/
+
+#page-container.sites-page h1 {
+    text-align: center;
+    margin: 125px 0 60px;
+}
+
+.gallery-choices {
+    display: none;
+}
+
+table {
+
+    width: 65%;
+    margin: 0 auto;
+    background-color: #82a9ba;
+    padding: 5px;
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: .9em;
+    margin-bottom: 75px;
+}
+
+table tr,
+table td,
+table th {
+    padding: 5px 2px;
+}
+
+table tr {
+    text-align: left;
+}
+
+th {
+    background-color: rgb(205,221,227);
+}
+
+td {
+    border-bottom: solid 1px;
+}
+
+caption {
+    background-color: rgba(62,70,73, .8);
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.gallery-controls {
+    text-align: center;
+}
+
+#gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#gallery-container img {
+    margin: 1%;
+    width: 95%;
+    height: 95%;
+}
+
+
+
+/*************************
+CONTACT PAGE
+**************************/
+
+form {
+    width: 95%;
+    margin: 0 auto 200px;
+    position: relative;
+    z-index: 1;
+
+}
+input,
+textarea,
+select,
+button {
+    display: block;
+    border: none;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px 4px 2px #d9d9d9 inset;
+}
+
+input,
+select {
+    padding: 8px 2px;
+}
+
+button {
+    width: 50%;
+    padding: 15px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    border-radius: 5px;
+    background-color: #82a9ba;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
 
 
 /*************************
@@ -360,10 +490,10 @@ MEDIA QUERIES
 }
 
 @media (min-width: 736px) {
-    #about-page-container h1 {
+    #page-container h1 {
         margin: 65px 0 30px;
     }
-    #about-page-container h2:first-of-type {
+    #page-container h2:first-of-type {
         margin-top: 0;
     }
 
@@ -425,7 +555,7 @@ MEDIA QUERIES
     /***********
     ABOUT PAGE
     **************/
-    #about-page-container h1 {
+    #page-container h1 {
         margin-top: 75px;
     }
 
@@ -439,6 +569,15 @@ MEDIA QUERIES
         width: 100%;
     }
 
+    /***********
+    CONTACT PAGE
+    **************/
+    form {
+        width: 60%;
+    }
+    button {
+        width: 25%;
+    }
 }
 
 /*********** BIG TABLETS AND REGULAR LAPTOPS **************/
@@ -609,12 +748,36 @@ MEDIA QUERIES
     ABOUT PAGE
     **************/
 
+    #page-container h1 {
+        text-align: center;
+    }
+
     img[src*="san-martin"] {
         width: 25%;
     }
 
     iframe {
         height: 575px;
+    }
+
+    /***********
+    CONTACT PAGE
+    **************/
+    form {
+        width: 50%;
+    }
+
+    input,
+    select,
+    textarea {
+        margin-bottom: 10px;
+    }
+    /***********
+    SITES TO SEE PAGE
+    **************/
+    #gallery-container img {
+        width: 45%;
+        height: 45%;
     }
 }
 

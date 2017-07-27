@@ -1,0 +1,35 @@
+'https://api.flickr.com/services/rest/?method=flickr.photos.search&name=value&api_key=8f85fae7b30b1d0fa402c01a4972c763&format=json&nojsoncallback=1&text=Downtown Buenos Aires,' +
+    ' Argentina&content_type=1&safe_search=1&tags=Argentina,Buenos Aires'
+
+'https://api.flickr.com/services/rest/?method=flickr.photos.search&name=value&api_key=8f85fae7b30b1d0fa402c01a4972c763&format=json&nojsoncallback=1&text=Patagonia,' +
+    ' Argentina&content_type=1&safe_search=1&tags=Argentina,Patagonia'
+
+'https://api.flickr.com/services/rest/?method=flickr.photos.search&name=value&api_key=8f85fae7b30b1d0fa402c01a4972c763&format=json&nojsoncallback=1&text=Downtown Mendoza,' +
+    ' Argentina&content_type=1&safe_search=1&tag
+
+tags=Argentina,Buenos Aires's=Argentina,Mendoza,downtown'
+
+
+
+
+
+
+BA
+text=Downtown Buenos Aires,Argentina
+tags=Argentina,Buenos Aires
+
+Patagonia
+text=Patagonia,Argentina
+tags=Argentina,Patagonia
+
+Mendoza 
+text=Downtown Mendoza,Argentina
+tags=Argentina,Mendoza,downtown
+
+Cordoba
+text=Downtown Cordoba,Argentina
+tags=Argentina,Cordoba,downtown
+
+Iguazu Falls
+
+
