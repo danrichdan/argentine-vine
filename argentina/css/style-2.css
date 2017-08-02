@@ -232,7 +232,7 @@ HOME PAGE
 /***********HERO SECTION**************/
 
 #hero {
-    background-image: url("../images/argentina-pampas.jpg");
+    background-image: url("../images/argentina-pampas-3.jpg");
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -775,6 +775,7 @@ MEDIA QUERIES
     /***********
     SITES TO SEE PAGE
     **************/
+
     #gallery-container img {
         width: 45%;
         height: 45%;
